@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#This script enables debugging between the real smartphone and the smartwatch emulator
+
+echo "Enabling debugging between real smartphone and real smartwatch"
+cd Library/Android/sdk/platform-tools
+./adb forward tcp:4444 localabstract:/adb-hub
+./adb connect 127.0.0.1:4444
