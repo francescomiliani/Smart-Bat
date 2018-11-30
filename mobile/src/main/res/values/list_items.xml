@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="period_array">
+        <item>Current Day</item>
+        <item>Current Month</item>
+        <item>Current Year</item>
+    </string-array>
+
+    <string-array name="bat_array">
+        <item>29 oz</item>
+        <item>30 oz</item>
+        <item>31 oz</item>
+        <item>32 oz</item>
+        <item>33 oz</item>
+        <item>34 oz</item>
+    </string-array>
+
+    <string-array name="bat_values_array">
+        <item>0.822</item>
+        <item>0.850</item>
+        <item>0.879</item>
+        <item>0.907</item>
+        <item>0.936</item>
+        <item>0.964</item>
+    </string-array>
+
+</resources>

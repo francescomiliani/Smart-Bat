@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="it.unipi.mywearapp.MeasuringActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAcceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_accelerometer"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/tvAccValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_accelerometer_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/tvGyroscope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_angle"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/tvAngleValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_angle_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/tvTiming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_duration"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/tvDurationValue"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/text_view_duration_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+        </LinearLayout>
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>
+

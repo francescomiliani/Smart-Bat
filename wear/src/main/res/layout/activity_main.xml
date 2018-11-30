@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="it.unipi.mywearapp.MainActivity"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="118dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_start"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="118dp"
+            android:layout_height="72dp"
+            android:layout_alignStart="@+id/buttonStart"
+            android:layout_below="@+id/buttonStart"
+            android:layout_marginTop="14dp"
+            android:text="@string/button_stop"
+            android:textAlignment="center"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</android.support.wear.widget.BoxInsetLayout>

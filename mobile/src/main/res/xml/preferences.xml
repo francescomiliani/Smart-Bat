@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/text_view_hitter_name_default_value"
+        android:key="@string/hitter_name_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/text_view_hitter_name_summary"
+        android:title="@string/text_view_hitter_name" />
+    <SwitchPreference
+        android:defaultValue="@string/bat_measure_default_value"
+        android:key="@string/bat_measure_key"
+        android:summaryOff="@string/bat_measure_summary_OFF_switch"
+        android:summaryOn="@string/bat_measure_summary_ON_switch"
+        android:switchTextOff="@string/bat_measure_switch_text_OFF"
+        android:switchTextOn="@string/bat_measure_switch_text_ON"
+        android:title="@string/bat_measure" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/bat_array"
+        android:entryValues="@array/bat_values_array"
+        android:icon="@drawable/bat_icon"
+        android:key="@string/bat_weight_key"
+        android:title="@string/bat_weight_name" />
+    <Preference
+        android:icon="@drawable/trash_icon"
+        android:key="@string/clear_key"
+        android:title="@string/clear_name" />
+</PreferenceScreen>

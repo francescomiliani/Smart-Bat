@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Smart Baseball Bat</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_measuring">Measuring</string>
+
+    <string name="text_view_accelerometer">Acceleration</string>
+    <string name="text_view_angle">Rotation</string>
+    <string name="text_view_accelerometer_default_value">0.00  N</string>
+    <string name="text_view_angle_default_value">0.00  °</string>
+    <string name="text_view_duration">Duration</string>
+    <string name="text_view_duration_default_value">0  ms</string>
+
+
+    <!-- MAIN ACTIVITY -->
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+
+    <!-- MEASURING ACTIVITY -->
+    <string name="no_accelerometer">FATAL ERROR: ACCELEROMETER SENSOR NOT AVAILABLE ON THIS DEVICE</string>
+    <string name="no_geomagnetic_rotation_vector">FATAL ERROR: GEOMAGNETIC ROTATION VECTOR SENSOR NOT AVAILABLE ON THIS DEVICE</string>
+
+</resources>

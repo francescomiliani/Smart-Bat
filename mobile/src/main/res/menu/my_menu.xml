@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto" ><!-- myapp is a namespace -->
+    <item
+        android:id="@+id/itemList"
+        android:icon="@drawable/list_icon"
+        android:title="@string/list"
+        android:titleCondensed="List"
+        myapp:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemChart"
+        android:icon="@drawable/chart_icon"
+        android:title="@string/chart"
+        android:titleCondensed="Chart"
+        myapp:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemWatch"
+        android:icon="@drawable/watch_icon"
+        android:title="@string/watch"
+        android:titleCondensed="Watch"
+        myapp:showAsAction="always" />
+    <item
+        android:id="@+id/itemSettings"
+        android:title="@string/settings"
+        android:titleCondensed="Settings" />
+</menu>

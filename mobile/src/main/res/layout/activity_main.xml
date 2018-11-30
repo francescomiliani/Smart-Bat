@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.unipi.mywearapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textViewMainTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_title_best"
+                android:textAppearance="@style/ActivityTitleFont" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/textViewMainSwingCounter"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_counter"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/textViewMainSwingCounterValue"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_counter_default_value"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/textViewSwingStrenght"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_strength"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/textViewSwingStrenghtValue"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_strength_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/textViewSwingAngle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_angle"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/textViewSwingAngleValue"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_angle_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/textViewSwingDuration"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_duration"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+            <TextView
+                android:id="@+id/textViewSwingDurationValue"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/text_view_swing_duration_default_value"
+                android:textAlignment="center"
+                android:textAppearance="@style/MyTextViewFont" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

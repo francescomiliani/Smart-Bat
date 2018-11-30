@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/light_orange</item>
+    </style>
+
+
+    <style name="MyTextViewFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ActivityTitleFont" parent="@style/MyTextViewFont">
+        <item name="android:textSize">35sp</item>
+    </style>
+
+
+    <style name="ButtonFont" parent="@style/MyTextViewFont">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- TABLE LAYOUT IN LIST ACTIVITY -->
+    <style id="headerFont" name="MyTableHeaderFont" parent="@style/MyTextViewFont">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="CustomTheme" parent="android:Theme.Material.Light">
+        <item name="android:windowBackground">@color/light_orange</item>
+    </style>
+
+</resources>
